@@ -10,7 +10,7 @@ namespace Övning_4___Loopar_while
     {
         static void Main(string[] args)
         {
-            int i = 1
+            int i = 1;
 
             // while (i <=20)
             while (i < 21)
@@ -26,7 +26,7 @@ namespace Övning_4___Loopar_while
 
             int num = Convert.ToInt32(Console.ReadLine());
 
-            if(num >= 1 && num >= 100)
+            if(num >= 1 && num <= 100)
             {
                 do
                 {
